@@ -1,0 +1,6 @@
+@@ Hi | Hey | Hello | Howdy | Greetings @@,
+
+## quote ##
+
+@@ Thanks | Thank you | Regards | Sincerely | Cheers @@,
+@@ ## first ## | ## first ## ## last ## | ## title ## ## last ## | ## title ## ## first ## ## last ## @@
