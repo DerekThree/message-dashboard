@@ -12,3 +12,7 @@ Opens on http://localhost:4200/
 ## item-api is a Spring Boot project for the back end.
 It's an InteliJ project built with Maven.
 Orchestration API querrying free public APIs and building a response.
+
+Pictures:
+![](https://github.com/DerekThree/message-dashboard/blob/main/message-dashboard.PNG)
+![](https://github.com/DerekThree/message-dashboard/blob/main/message-dashboard2.PNG)
