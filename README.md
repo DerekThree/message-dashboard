@@ -13,6 +13,5 @@ Opens on http://localhost:4200/
 It's an InteliJ project built with Maven.
 Orchestration API querrying free public APIs and building a response.
 
-Pictures:
 ![](https://github.com/DerekThree/message-dashboard/blob/main/message-dashboard.PNG)
 ![](https://github.com/DerekThree/message-dashboard/blob/main/message-dashboard2.PNG)
