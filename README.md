@@ -2,6 +2,8 @@
 Angular and Spring Boot demo
 
 ## message-dashboard is an Angular project for the front end.
+Includes components, service, EventEmmiter, styling, and resizing.
+
 From project directory, type:
 npm install,
 ng serve --open
