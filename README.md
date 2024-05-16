@@ -8,9 +8,6 @@ From project directory, type:
 npm install,
 ng serve --open
 
-Opens on http://localhost:4200/
-
-
 ## Item-api is a Spring Boot project for the back end.
 It's an InteliJ project built with Maven.
 Orchestration API querrying free public APIs and building a response.
