@@ -1,0 +1,45 @@
+app-list {
+    width: 40%;
+    min-width: 145px;    
+}
+
+.contents {
+    width: 60%;
+    background-color: bisque;
+    display:flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+
+.textBox {
+    background-color: rgb(255, 250, 245);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    min-height: max-content;
+    box-shadow: 1px 1px 3px inset;
+    border: 1px solid burlywood;
+    white-space: pre-line; /* This allows the \n symbols to create line breaks */
+    word-wrap: break-word; /* This breaks long words if they don't fit in the container */
+    overflow-y: auto; /* Set overflow-y to auto to enable vertical scrolling */
+}
+
+.textBox::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+}
+
+/* Track styles */
+.textBox::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Set a background color for the track */
+}
+
+/* Handle styles */
+.textBox::-webkit-scrollbar-thumb {
+    background: bisque; /* Set a background color for the thumb */
+}
+
+/* Handle on hover */
+.textBox::-webkit-scrollbar-thumb:hover {
+    background: blanchedalmond; /* Set a different background color for the thumb when hovered */
+}

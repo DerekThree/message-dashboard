@@ -1,0 +1,8 @@
+<app-list title="New Messages" (itemPicked)="itemPicked($event)"></app-list>
+<div style="min-width: 20px"></div>
+<div class="contents" [style.display]="pickedItem.name.title !== 'empty' ? 'flex' : 'none'">
+    <div class="textBox">
+        <app-info-card [item]="pickedItem" ></app-info-card>
+    </div>
+    <div class="textBox messageBox">{{pickedItem.message}}</div>
+</div>

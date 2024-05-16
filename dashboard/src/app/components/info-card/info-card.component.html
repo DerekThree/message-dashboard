@@ -1,0 +1,11 @@
+<div class="flex"  >
+    <img [style.display]="item.picture.large !== '' ? 'block' : 'none'" src="{{ item.picture.large }}" alt="Profile Picture" class="picture">
+    <div class="infoDetails">
+        <h1> {{ item.name.first }} {{ item.name.last }} </h1>
+        <div> {{ item.location.street.number }} {{ item.location.street.name }}</div>
+        <div> {{ item.location.city }}, {{ item.location.state }} {{ item.location.postcode }}</div>
+        <div> {{ item.location.country }} </div>
+        <div> {{ item.phone }} </div>
+        <div> {{ item.email }} </div>
+    </div>
+</div>

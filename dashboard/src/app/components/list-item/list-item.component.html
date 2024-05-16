@@ -1,0 +1,7 @@
+<div class="item-card {{shadowClass}}" (mousedown)="onMouseDown()" (mouseout)="onMouseOut()">
+    <img src="{{ item.picture.large }}" alt="Profile Picture" class="picture">
+    <div class="details">
+      <h2> {{ item.name.first }} {{ item.name.last }}</h2>
+      <p> {{ item.message }} </p>
+    </div>
+</div>

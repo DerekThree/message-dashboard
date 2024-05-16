@@ -1,0 +1,38 @@
+.item-card {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin: 10px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 35px;
+}
+
+.non-pressed {
+    box-shadow: 1px 1px 3px;
+    border: 1px solid white;
+}
+
+.pressed {
+    box-shadow: 1px 1px 3px inset;
+    border: 1px solid burlywood;
+}
+
+p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.details {
+    overflow: hidden;
+    white-space: nowrap;
+}
